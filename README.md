@@ -1,6 +1,6 @@
 # Laravel-Vue SPA 
 
-> A Laravel-Vue SPA starter project scaffolding.
+> A simple Laravel-Vue SPA starter project scaffolding.
 
 <p align="center">
 <img src="https://i.imgur.com/NHFTsGt.png">
@@ -9,7 +9,7 @@
 ## Features
 
 - Laravel 6.0
-- Vue + VueRouter + Vuex + VueI18n + ESlint
+- Vue + VueRouter + Vuex + VueI18n
 - Pages with dynamic import and custom layouts
 - Login, register, email verification and password reset
 - Authentication with JWT
@@ -18,9 +18,10 @@
 
 ## Installation
 
-- `composer create-project --prefer-dist danielovieda/laravel-vue-spa`
+- `git clone https://github.com/danielovieda/Laravel-Vue-SPA.git`
 - Edit `.env` and set your database connection details
-- (When installed via git clone or download, run `php artisan key:generate` and `php artisan jwt:secret`)
+- `php artisan key:generate`
+- `php artisan jwt:secret`
 - `php artisan migrate`
 - `npm install`
 
